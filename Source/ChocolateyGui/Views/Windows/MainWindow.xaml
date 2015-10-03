@@ -9,7 +9,7 @@
 		xmlns:xaml="clr-namespace:Markdown.Xaml"
 		mc:Ignorable="d" Height="768" Width="1366" GlowBrush="{StaticResource HighlightBrush}"
 		d:DataContext="{d:DesignInstance Type=local:MainWindowViewModel}"
-		TitleForeground="{StaticResource Brown1Brush}"
+		TitleForeground="{StaticResource GrayBrush1}"
 		Title="ChocolateyGUI">
 
 	<Window.Resources>
@@ -32,10 +32,10 @@
 
 	<metro:MetroWindow.Flyouts>
 		<metro:FlyoutsControl>
-            <metro:Flyout x:Name="AboutFlyout" Header="About" Position="Right" Width="500" Theme="Accent" >
+            <metro:Flyout x:Name="AboutFlyout" Header="About" Position="Right" Width="540" Theme="Accent" >
                 <Border Background="{StaticResource LightBackgroundColorBrush}">
                     <metro:MetroAnimatedSingleRowTabControl>
-					    <TabItem Header="ChocolateyGUI">
+					    <TabItem Header="About">
                             <Grid>
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="Auto"/>
